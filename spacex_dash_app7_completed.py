@@ -57,8 +57,9 @@ def get_pie_chart(entered_site):
         filtered_df = spacex_df[spacex_df['class']==1]
         df = pd.DataFrame(filtered_df['Launch Site'].value_counts())
         df.reset_index(inplace = True)
-        fig = px.pie(df, values='Launch Site', 
-        names='index', 
+        df.rename(columns = {'index':'Launch Site', 'Launch Site': 'Count'}, inplace = True)
+        fig = px.pie(df, values='Count', 
+        names='Launch Site', 
         title='Total Success Launches By Site')
         return fig
     else:
@@ -67,8 +68,9 @@ def get_pie_chart(entered_site):
         df = pd.DataFrame(filtered_df['class'].value_counts())
         df.reset_index(inplace = True)
         df['index'].replace({0: 'Failure', 1: 'Success'}, inplace = True)
-        fig = px.pie(df, values='class', 
-        names='index', 
+        df.rename(columns = {'index':'Launch Outcome', 'class': 'Count'}, inplace = True)
+        fig = px.pie(df, values='Count', 
+        names='Launch Outcome', 
         title='Total Success Launches for Site ' + entered_site)
         return fig
 # TASK 4:
