@@ -1,3 +1,0 @@
-http://nbviewer.org/github/EW-10/IBM-Capstone/blob/master/IBM%20Capstone%3A%20Launch%20Site%20Location%20%28with%20Follium%29.ipynb
-
-Please note: Folium maps seem not to render on Github. You can view the completed notebook with Folium on the above link on nbviewer.org.
