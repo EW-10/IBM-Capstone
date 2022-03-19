@@ -61,6 +61,7 @@ def get_pie_chart(entered_site):
         fig = px.pie(df, values='Count', 
         names='Launch Site', 
         title='Total Success Launches By Site')
+        fig.update_layout(font_size = 13)
         return fig
     else:
         # return the outcomes piechart for a selected site
@@ -72,6 +73,7 @@ def get_pie_chart(entered_site):
         fig = px.pie(df, values='Count', 
         names='Launch Outcome', 
         title='Total Success Launches for Site ' + entered_site)
+        fig.update_layout(font_size = 13)
         return fig
 # TASK 4:
 # Add a callback function for `site-dropdown` and `payload-slider` as inputs, `success-payload-scatter-chart` as output
@@ -81,19 +83,24 @@ def get_pie_chart(entered_site):
               component_property="value"))
 def get_scatter_chart(entered_site, payload_range):
     filtered_df = spacex_df
+    filtered_df.rename(columns = {'class':'Launch Outcome'}, inplace = True)
     low, high = payload_range
     mask = (filtered_df['Payload Mass (kg)'] > low) & (filtered_df['Payload Mass (kg)'] < high)
     if entered_site == 'All':
         fig = px.scatter(filtered_df[mask], x = 'Payload Mass (kg)',
-        y='class',  color="Booster Version Category",
-        title='Correlation between Payload and Success for all Sites')
+        y='Launch Outcome',  color="Booster Version Category",
+        title='Correlation between Payload and Success for All Sites')
+        fig.update_layout(font_size = 13)
+        fig.update_traces(marker=dict(size=8.5))
         return fig
     else:
         # return the outcomes piechart for a selected site
         filtered_df = spacex_df[spacex_df['Launch Site']==entered_site]
         fig = px.scatter(filtered_df[mask], x = 'Payload Mass (kg)',
-        y='class', color="Booster Version Category",  
+        y='Launch Outcome', color="Booster Version Category",  
         title='Correlation between Payload and Success for Launch Site ' + entered_site)
+        fig.update_layout(font_size = 13)
+        fig.update_traces(marker=dict(size=8.5))
         return fig
 
 # Run the app
