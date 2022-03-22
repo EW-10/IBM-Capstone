@@ -1,5 +1,5 @@
 # IBM-Capstone
-Repository for capstone project of IBM Professional Certificate in Data Science.
+Repository for Capstone Project of the IBM Professional Certificate in Data Science.
 
 Edited: Added this line as part of project requirements.
 
