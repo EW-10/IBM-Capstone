@@ -1,7 +1,7 @@
 # IBM-Capstone
 Repository for Capstone Project of the IBM Professional Certificate in Data Science.
 
-Edited: Added this line as part of project requirements.
+Edit: Added this line as part of project requirements.
 
 This repository includes all of the completed notebooks and python files, as well as datasets, that are part of the Capstone Project of the IBM Professional Certificate in Data Science, including:
 
@@ -14,9 +14,9 @@ This repository includes all of the completed notebooks and python files, as wel
 7. Link to above notebook with Folium on nbviewer.org in order to view completed Folium maps
 8. spacex_dash_app7_completed.py -- completed Python file for SpaceX dashboard application
 9. IBM Capstone: ML Prediction
-10. dataset_part_1_data_wrangling.csv -- a csv file used for the data wrangling stage (IBM Capstone: SpaceX Data Wrangling, #3 above)
+10. dataset_part_1_data_wrangling.csv -- a csv file used for the data wrangling step (IBM Capstone: SpaceX Data Wrangling, #3 above)
 11. Spacex_dataset_SQL.csv -- a csv file used for the SQL queries (IBM Capstone: EDA with SQL, #4 above)
-12. dataset_part_2_data_visualization.csv -- a csv file used for the EDA and data visualization stage (IBM Capstone: EDA and Data Visualization, #5 above)
-13. spacex_launch_geo_folium.csv -- a csv file used for the launch sites locations analysis with folium stage (IBM Capstone: Launch Sites Locations Analysis with Folium, #6 above)
+12. dataset_part_2_data_visualization.csv -- a csv file used for the EDA and data visualization step (IBM Capstone: EDA and Data Visualization, #5 above)
+13. spacex_launch_geo_folium.csv -- a csv file used for the launch sites locations analysis with folium step (IBM Capstone: Launch Sites Locations Analysis with Folium, #6 above)
 14. spacex_launch_dash.csv -- a csv file used for the spacex_dash_app7_completed.py dashboard application (#8 above)
-15. dataset_part_2_ML.csv -- a csv file used for ML predictive analysis - classification (IBM Capstone: ML Prediction, #9 above)
+15. dataset_part_2_ML.csv -- a csv file used for the ML predictive analysis - classification step (IBM Capstone: ML Prediction, #9 above)
