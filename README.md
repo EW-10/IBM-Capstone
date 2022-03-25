@@ -1,9 +1,7 @@
 # IBM-Capstone
-Repository for Capstone Project of the IBM Professional Certificate in Data Science.
+Repository for Capstone project of the IBM Professional Certificate in Data Science
 
-Edit: Added this line as part of project requirements.
-
-This repository includes all of the completed notebooks, Python file, and datasets, as well as the final report files, which are part of the Capstone Project of the IBM Professional Certificate in Data Science, including:
+This repository includes all of the completed notebooks, Python file, and datasets, as well as the final report files, which are part of the Capstone project of the IBM Professional Certificate in Data Science, including:
 
 1. IBM Capstone: SpaceX Data Collection with API -- name of Jupyter Notebook
 2. IBM Capstone: Webscraping -- name of Jupyter Notebook
@@ -21,4 +19,4 @@ This repository includes all of the completed notebooks, Python file, and datase
 14. spacex_launch_dash.csv -- a csv file used for the spacex_dash_app7_completed.py dashboard application (#8 above)
 15. dataset_part_2_ML.csv -- a csv file used for the ML predictive analysis - classification step (IBM Capstone: ML Prediction, #9 above)
 16. ds-capstone-coursera-EW10.pptx -- a PowerPoint file, which is the source document for the final report that is in pdf format
-17. ds-capstone-coursera-EW10.pdf  -- a PDF file, which is the final report for this capstone project
+17. ds-capstone-coursera-EW10.pdf  -- a PDF file, which is the final report for this Capstone project
